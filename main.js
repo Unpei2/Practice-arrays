@@ -41,6 +41,7 @@ let namse = []
 let loop = true
 while (loop){
     let answer = prompt("enter a name")
+    namse.push(answer)
     if (answer === "done"){
         loop = false
     }
