@@ -21,7 +21,7 @@ for (x = 0; x < 300; x++){
 }
 
 let multiplesarray = []
-for (x = 20 ;x < 804; x += 4){
+for (x = 20 ;x <= 800; x += 4){
     multiplesarray.push(x)
 }
 
@@ -31,10 +31,10 @@ for (x = 100;x > 8;x -= 2){
 }
 
 let colorsStr = "red,orange,yellow,green,blue,indigo,violet"
-colorsStr.split(",")
+let colorsplit = colorsStr.split(",")
 
 let citiesStr = "Edmonton;Calgary;Vancouver;Saskatoon;Winnipeg"
-colorsStr.split(";")
+let citysplit = citiesStr.split(";")
 
 
 let namse = []
