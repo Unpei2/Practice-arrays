@@ -56,3 +56,46 @@ while (loop){
 // }
 // check()
 
+
+// Traverse ARrays Practice
+let results = []
+let yes = 0 
+let no = 0
+let maybe = 0
+for (x = 0;x < results.length; x++){
+    if (results[x] === "Yes"){
+        yes++
+    }   else if (results[x] === "No"){
+        no++
+    }   else if (results[x] === "Maybe"){
+        maybe++
+    }
+}
+
+let ages = []
+let younger = 0
+let older = 0
+for (x = 0; x < ages.length;x++){
+    if (ages[x] < 18 ){
+        younger++
+    }   else {
+        older++
+    }
+}
+
+let prices = []
+let under20 = 0
+let over20 = 0
+let over50 = 0
+for (x = 0;x < prices.length;x++){
+    if (prices[x] < 20){
+        under20++
+    }   else if (prices[x] >= 20){
+                over20++
+    }   else if (prices[x] >= 50){
+        over50++
+    }
+    prices[x]+=2
+    prices[x] *= 1.05
+    prices[x] *= 0.80
+}
